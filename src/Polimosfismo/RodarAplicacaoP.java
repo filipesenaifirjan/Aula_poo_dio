@@ -4,7 +4,7 @@ public class RodarAplicacaoP {
 	
 	public static void main(String[] args) {
 		
-		ClassMae[] classes = new ClassMae[] {new ClassFilha1(), new ClassFilha2(), new ClassMae()};
+		ClassMae[] classes = new ClassMae[]{new ClassFilha1(), new ClassFilha2(), new ClassMae()};
 		
 		for (ClassMae classe: classes) {
 			classe.metodo1();
@@ -20,5 +20,6 @@ public class RodarAplicacaoP {
 		classFilha2.metodo2();
 		
 	}
+	//metodo polimórfico
 
 }
